@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/release/release",
+    "pages/star/star",
+    "pages/square/square",
+    "pages/index/index",
+    "pages/self/self",
+    "pages/chat/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#22dad5",
+    "backgroundColor": "#22dad5"
+  },
+  "tabBar": {
+    "color": "#262626",
+    "selectedColor": "#22d6d3",
+    "borderStyle": "black",
+    "backgroundColor": "#fdfdfd",
+    "list": [
+      {
+        "pagePath": "pages/star/star",
+        "iconPath": "static/tabbar_icon/star.png",
+        "selectedIconPath": "static/tabbar_icon/star.png",
+        "text": "星球"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "iconPath": "static/tabbar_icon/square.png",
+        "selectedIconPath": "static/tabbar_icon/square.png",
+        "text": "广场"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "iconPath": "static/tabbar_icon/release.png",
+        "selectedIconPath": "static/tabbar_icon/release.png",
+        "text": "发布瞬间"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/tabbar_icon/chat.png",
+        "selectedIconPath": "static/tabbar_icon/chat.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "iconPath": "static/tabbar_icon/self.png",
+        "selectedIconPath": "static/tabbar_icon/self.png",
+        "text": "自己"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
